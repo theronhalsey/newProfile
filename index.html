@@ -5,8 +5,7 @@
     <meta charset="UTF-8">
     <title>A work in progress...</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link href="https://fonts.googleapis.com/css?family=Libre+Barcode+39+Text|Overpass+Mono|Ramabhadra|Seymour+One|Meera+Inimai"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Mono|Libre+Barcode+39+Text|Overpass+Mono|Seymour+One|Meera+Inimai" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
@@ -50,12 +49,45 @@
 
         <div class="row">
             <div class="col-md-4">
-                <img src="assets/images/me.png" class="headShot"></img>
-                <img src="assets/images/otter.jpg" class="headShot"></img>
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100 headShot" src="assets/images/pro.jpg" alt="First slide">
+                        </div>
+                        <div class="carousel-item headShot">
+                            <img class="d-block w-100 headShot" src="assets/images/otter.jpg" alt="Second slide">
+                        </div>
+                        <div class="carousel-item headShot">
+                            <img class="d-block w-100" src="assets/images/dart.jpg" alt="Third slide">
+                        </div>
+                        <div class="carousel-item headShot">
+                            <img class="d-block w-100" src="assets/images/cats.jpg" alt="Fourth slide">
+                        </div>
+                        <div class="carousel-item headShot">
+                                <img class="d-block w-100 headShot" src="assets/images/me.png" alt="Fifth slide">
+                            </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
             </div>
             <div class="col-md-8">
                 <h1 class="display-4">//WHOIS: Theron Halsey</h1>
-                <p class="lead">Army Reserve Sergeant / Former Navy Petty-officer / Jack of all things with an electronic circuit / Otter Enthusiast / Beer Drinker / Web developer?</p>
+                <p class="lead">Soccer Player / Army Reserve Sergeant / Former Navy Petty officer / Jack of all things with an electronic circuit / Otter
+                    Enthusiast / Beer Drinker / Friend of Cats / Web developer?</p>
                 <hr class="my-4">
                 <p>As diverse as a past you could find. Bachelors in Arts in East Asian Language and Culture from Univeristy
                     of Illinois Urbana-Champaign. Navy Avation-Electronics Technician, 2nd Class. Army Sergeant Information

@@ -1,5 +1,10 @@
 /* Common items */
 
+body {
+    background-image: url(../images/Grey-cement-Seamless-Pattern-For-Website-Background.jpg);
+    background-repeat: repeat;
+}
+
 li+li {
     border-left: 1px solid #777777;
 }
@@ -8,21 +13,25 @@ li+li {
     font-family: 'Overpass Mono', sans-serif;
     font-size: 1em;
     height: 5vw;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
 }
 
 .navbar-brand {
-    font-family: 'Libre Barcode 39 Text', cursive;
+    font-family: 'Fira Mono', monospace;
+    font-weight: bolder;
     font-size: 2.75em;
     background-color: teal;
     padding-left: 1rem;
     padding-right: 1rem;
-    margin-bottom: 15px;
+    border: solid, 5px;
+    border-color: teal;
 }
 
 .headShot {
     max-height: 24vw;
+    max-width: 24vw;
     min-height: 15rem;
+    min-width: 15rem;
     padding: 2px;
 }
 
