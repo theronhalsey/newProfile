@@ -1,0 +1,31 @@
+/* Common items */
+
+li+li {
+    border-left: 1px solid #777777;
+}
+
+#navBar {
+    font-family: 'Overpass Mono', sans-serif;
+    font-size: 1em;
+    height: 5vw;
+    margin-bottom: 1rem;
+}
+
+.navbar-brand {
+    font-family: 'Libre Barcode 39 Text', cursive;
+    font-size: 2.75em;
+    background-color: teal;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-bottom: 15px;
+}
+
+.headShot {
+    max-height: 24vw;
+    min-height: 15rem;
+    padding: 2px;
+}
+
+p {
+    font-family: 'Meera Inimai', sans-serif;
+}
